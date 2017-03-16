@@ -9,6 +9,11 @@
   		<artifactId>junit</artifactId>
   		<version>4.11</version>
   		<scope>test</scope>
+      <groupId>mxparser</groupId>
+  		<artifactId>mxparser</artifactId>
+  		<version>3.0</version>
+  		<scope>system</scope>
+      <systemPath>${project.basedir}/src/main/resources/mxparser.jar</systemPath>
   	</dependency>
   </dependencies>
 </project>
